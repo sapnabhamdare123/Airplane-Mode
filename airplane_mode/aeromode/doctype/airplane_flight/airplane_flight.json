@@ -18,7 +18,8 @@
   "source_airport_code",
   "destination_airport_code",
   "route",
-  "is_publised_"
+  "is_publised_",
+  "crew_members"
  ],
  "fields": [
   {
@@ -108,13 +109,19 @@
    "fieldname": "is_publised_",
    "fieldtype": "Check",
    "label": "Is publised ?"
+  },
+  {
+   "fieldname": "crew_members",
+   "fieldtype": "Table",
+   "label": "Crew Members",
+   "options": "Crew Member"
   }
  ],
  "has_web_view": 1,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-12-09 10:51:22.627504",
+ "modified": "2024-12-13 15:22:50.029563",
  "modified_by": "Administrator",
  "module": "AeroMode",
  "name": "Airplane Flight",
